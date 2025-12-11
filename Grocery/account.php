@@ -12,7 +12,7 @@ if (!isset($_SESSION['cid12'])) {
 $customer_id = $_SESSION['cid12'];
 
 // Database connection
-include 'dbconnection.php';
+include 'db_connection.php';
 
 // Check connection
 if (!$connect) {
