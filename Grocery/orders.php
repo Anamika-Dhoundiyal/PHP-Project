@@ -11,7 +11,7 @@ if (!isset($_SESSION['cid12'])) {
 }
 
 $user_id = $_SESSION['cid12'];
-include 'dbconnection.php';
+include 'db_connection.php';
 
 // Get user's orders with schema-aware customer column
 $ordersCols = [];
