@@ -1,81 +1,53 @@
-# Grocery Store Management System
+# GROCERY-STORE-MANAGEMENT-SYSTEM-USING-PHP-AND-MYSQL-PHPMYADMIN-
 
-A comprehensive web-based inventory and order management system built with PHP and MySQL. This application allows customers to browse products, manage shopping carts, and place orders, while administrators can manage inventory, process orders, and generate reports.
+## 🚀 Quick Start Guide
 
-## 🌟 Features
-
-### 👥 Customer Features
-- **User Registration & Authentication** - Secure signup and login system
-- **Product Browsing** - View products with detailed descriptions and images
-- **Advanced Search** - Search by name, category, and price range
-- **Shopping Cart** - Add/remove items, update quantities, persistent cart
-- **Checkout Process** - Complete order flow with confirmation
-- **Order Tracking** - View order history and current order status
-- **Account Management** - Update profile and view transactions
-
-### 🛠️ Administrator Features
-- **Inventory Management** - Add, edit, delete products with images
-- **Category Management** - Manage product categories
-- **Order Processing** - View and manage customer orders
-- **Transaction Reports** - View all system transactions
-- **Dashboard** - Quick overview of system statistics
-- **Admin Panel** - Centralized administration interface
-
-## 🔧 System Requirements
-
-- **Web Server**: Apache (included in XAMPP/WAMP)
+### 📋 System Requirements
+- **XAMPP/WAMP** (Apache, MySQL, PHP)
 - **PHP Version**: 7.0 or higher
-- **Database**: MySQL 5.6+ or MariaDB
-- **Browser**: Modern browser with JavaScript enabled
+- **MySQL/MariaDB**: 5.6 or higher
 
-## 📦 Installation
+### 🔗 Quick Access Links
 
-### 1. Prerequisites
-- Install [XAMPP](https://www.apachefriends.org/) or WAMP
-- Start Apache and MySQL services
 
-### 2. Clone/Download Project
-```bash
-git clone https://github.com/Anamika-Dhoundiyal/GROCERY-STORE-MANAGEMENT-SYSTEM.git
-cd GROCERY-STORE-MANAGEMENT-SYSTEM
-```
+**Admin Panel**: Login as Admin → Redirects to `Admin_logged.php`
 
-### 3. Setup Database
-```bash
-# Using phpMyAdmin
-1. Go to http://localhost/phpmyadmin
-2. Create a new database named 'grocery_store'
-3. Import grocery_store_schema.sql file
-```
+### 🔑 Default Login Credentials
 
-### 4. Configure Database Connection
-Edit `Grocery/db_connection.php`:
-```php
-$server = "localhost";
-$username = "root";
-$password = "";
-$database = "grocery_store";
-```
-
-### 5. Access the Application
-```
-Customer Portal: http://localhost/GROCERY-STORE-MANAGEMENT-SYSTEM/Grocery/index.php
-Admin Panel: http://localhost/GROCERY-STORE-MANAGEMENT-SYSTEM/Grocery/admin_login.php
-```
-
-## 🔐 Default Login Credentials
-
-### Admin Account
+#### Admin Account
 - **Username**: `Admin`
 - **Password**: `dbms_pro1`
 
-### Sample Customer Account
+#### Customer Accounts
 - **Username**: `Dharani`
 - **Password**: `Ds`
 
-*Note: Change default credentials in production*
+#### Employee Accounts
+- **Username**: `ram`
+- **Password**: `pingu`
 
-## 📊 Key Features
+### 🛠️ Setup Instructions
+
+1. **Start XAMPP/WAMP** services (Apache & MySQL)
+
+2. **Place files** in your htdocs/www directory:
+   ```
+   C:\xampp\htdocs\GROCERY-STORE-MANAGEMENT-SYSTEM-USING-PHP-AND-MYSQL-PHPMYADMIN--master\
+   ```
+
+3. **Run Database Setup** (if not already done):
+   ```
+   http://localhost/GROCERY-STORE-MANAGEMENT-SYSTEM-USING-PHP-AND-MYSQL-PHPMYADMIN--master/setup_database.php
+   ```
+
+4. **Access the System**:
+   ```
+   http://localhost/GROCERY-STORE-MANAGEMENT-SYSTEM-USING-PHP-AND-MYSQL-PHPMYADMIN--master/Grocery/index1.html
+   ```
+
+### 🎯 User Roles & Features
+
+#### 👨‍💼 Admin Features
 - ✅ Product Management (Add/Update/Delete)
 - ✅ Customer Management
 - ✅ Employee Management
