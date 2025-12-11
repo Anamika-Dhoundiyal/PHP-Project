@@ -1,0 +1,56 @@
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# PHP
+.php_cs
+.php_cs.cache
+vendor/
+composer.lock
+
+# Database
+*.sql
+!grocery_store_schema.sql
+.env
+.env.local
+.env.*.local
+
+# Logs
+error.log
+debug.log
+*.log
+
+# Sessions and temp files
+/tmp/
+/temp/
+session_files/
+
+# User uploaded files (keep structure, ignore actual files)
+/uploads/*
+!/uploads/.gitkeep
+
+# OS
+Thumbs.db
+.DS_Store
+*.exe
+*.dll
+*.so
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Configuration files with credentials
+config/local.php
+config/secrets.php
+
+# Build and cache
+/node_modules/
+/dist/
+/build/
+.cache/
