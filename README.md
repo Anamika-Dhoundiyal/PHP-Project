@@ -73,11 +73,35 @@ GROCERY-STORE-MANAGEMENT-SYSTEM/
 5. Proceed to checkout
 6. Track orders in "Orders" section
 
+**Customer Screenshots:**
+
+![Customer Portal](images_readme/Screenshot%20(59).png)
+
+![Product Browsing](images_readme/Screenshot%20(60).png)
+
+![Shopping Cart](images_readme/Screenshot%20(62).png)
+
+![Checkout Page](images_readme/Screenshot%20(63).png)
+
+![Order Tracking](images_readme/Screenshot%20(64).png)
+
+---
+
 ### For Administrators
 1. Login with admin credentials
 2. Access dashboard for overview
 3. Manage products in "Products" section
 4. Process orders in "Orders" section
+
+**Admin Screenshots:**
+
+![Admin Dashboard](images_readme/image.png)
+
+![Product Management](images_readme/image-1.png)
+
+![Order Management](images_readme/image-2.png)
+
+![Admin Controls](images_readme/image-3.png)
 5. View all transactions in reports
 
 ---
