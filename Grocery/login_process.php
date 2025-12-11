@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'dbconnection.php';
+include 'db_connection.php';
 include 'cart_functions.php';
 
 function sanitize($s) { return htmlspecialchars(stripslashes(trim($s))); }

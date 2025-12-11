@@ -52,7 +52,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       </div>
    </div>
    <?php
-   include 'dbconnection.php';
+   include 'db_connection.php';
    $query = mysqli_query($connect,"SELECT * FROM purchase");
    
    $Cart_total=0;

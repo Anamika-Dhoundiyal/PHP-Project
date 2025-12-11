@@ -18,7 +18,7 @@ if (!isset($_GET['order_id'])) {
 $order_id = intval($_GET['order_id']);
 $user_id = $_SESSION['cid12'];
 
-include 'dbconnection.php';
+include 'db_connection.php';
 
 // Get order details with schema-aware customer column
 $ordersCols = [];

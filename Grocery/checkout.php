@@ -25,7 +25,7 @@ foreach ($cartItems as $item) {
 // Fetch existing addresses for the user (schema-aware)
 $existing_addresses = [];
 if (isset($_SESSION['cid12'])) {
-    include 'dbconnection.php';
+    include 'db_connection.php';
     $user_id = $_SESSION['cid12'];
     $ordersCols = [];
     $ordersRes = mysqli_query($conn, "SHOW COLUMNS FROM orders");
@@ -40,7 +40,7 @@ if (isset($_SESSION['cid12'])) {
 
 // Handle form submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    include 'dbconnection.php';
+    include 'db_connection.php';
     
     $user_id = $_SESSION['cid12'];
     $address = mysqli_real_escape_string($conn, $_POST['address'] ?? '');

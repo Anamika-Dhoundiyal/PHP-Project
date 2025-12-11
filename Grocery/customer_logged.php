@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'dbconnection.php';
+include 'db_connection.php';
 
 // Check if customer is logged in
 if (!isset($_SESSION['cid12'])) {

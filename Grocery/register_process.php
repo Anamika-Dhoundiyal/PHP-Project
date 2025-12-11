@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'dbconnection.php';
+include 'db_connection.php';
 
 function s($x){return htmlspecialchars(stripslashes(trim($x)));}
 

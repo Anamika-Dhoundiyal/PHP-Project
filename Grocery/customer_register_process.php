@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('dbconnection.php');
+include('db_connection.php');
 
 // Function to sanitize input data
 function sanitize_input($data) {

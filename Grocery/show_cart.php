@@ -46,7 +46,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       </div>
    </div>
    <?php
-   include 'dbconnection.php';
+   include 'db_connection.php';
    
    // Check connection
    if (!$connect) {

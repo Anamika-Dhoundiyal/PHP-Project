@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'dbconnection.php';
+include 'db_connection.php';
 
 if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
     header('Location: login.php');
