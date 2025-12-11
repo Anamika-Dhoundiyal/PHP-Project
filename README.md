@@ -81,38 +81,26 @@ GROCERY-STORE-MANAGEMENT-SYSTEM/
 5. View all transactions in reports
 
 ---
-### For Administrators
 
-![alt text](image-3.png)
+## 🎨 User Interface
 
-![alt text](image-4.png)
+The application features a clean, user-friendly interface built with Bootstrap for responsive design across all devices.
 
-![alt text](image-5.png)
+**Admin Panel**: Complete control over products, customers, and orders  
+**Customer Portal**: Easy product browsing, cart management, and order tracking
 
+---
 
-### For Customers
-
-![alt text](<Screenshot (59)-1.png>)
-
-![alt text](<Screenshot (60)-1.png>)   
-
-![alt text](<Screenshot (62)-1.png>)
-
-![alt text](<Screenshot (63)-2.png>)
-
-![alt text](<Screenshot (64).png>)
-
-![alt text](image-6.png)
-
-![alt text](image-7.png)
-
-
+## 👤 Author
 
 **Anamika Dhoundiyal**
 - GitHub: [@Anamika-Dhoundiyal](https://github.com/Anamika-Dhoundiyal)
 - Email: dhoundiyalanamika06@gmail.com
 
 ---
+
+**Status**: ✅ Production Ready | 🚀 Portfolio Quality  
+**Last Updated**: December 11, 2025
 
 
 
